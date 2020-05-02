@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MyMovieSearcher/static/css/main.6b31e48e.chunk.css",
+    "main.js": "/MyMovieSearcher/static/js/main.d33addbf.chunk.js",
+    "main.js.map": "/MyMovieSearcher/static/js/main.d33addbf.chunk.js.map",
+    "runtime-main.js": "/MyMovieSearcher/static/js/runtime-main.e67da9aa.js",
+    "runtime-main.js.map": "/MyMovieSearcher/static/js/runtime-main.e67da9aa.js.map",
+    "static/js/2.f3a9fe58.chunk.js": "/MyMovieSearcher/static/js/2.f3a9fe58.chunk.js",
+    "static/js/2.f3a9fe58.chunk.js.map": "/MyMovieSearcher/static/js/2.f3a9fe58.chunk.js.map",
+    "index.html": "/MyMovieSearcher/index.html",
+    "precache-manifest.cf5b2cd5d2d33d74ec8fa9740d0d3784.js": "/MyMovieSearcher/precache-manifest.cf5b2cd5d2d33d74ec8fa9740d0d3784.js",
+    "service-worker.js": "/MyMovieSearcher/service-worker.js",
+    "static/css/main.6b31e48e.chunk.css.map": "/MyMovieSearcher/static/css/main.6b31e48e.chunk.css.map",
+    "static/js/2.f3a9fe58.chunk.js.LICENSE.txt": "/MyMovieSearcher/static/js/2.f3a9fe58.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e67da9aa.js",
+    "static/js/2.f3a9fe58.chunk.js",
+    "static/css/main.6b31e48e.chunk.css",
+    "static/js/main.d33addbf.chunk.js"
+  ]
+}

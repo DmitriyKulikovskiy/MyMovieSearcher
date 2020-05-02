@@ -1,0 +1,256 @@
+  
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+   body {
+    background: url('https://www.zastavki.com/pictures/originals/2015/Backgrounds_Glasses_for_3D_cinema__gray_background_107654_.png');
+    width: auto;
+    height: auto;
+  }
+
+  header {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0,0,0,0.4);
+    position: relative;
+  }
+
+  header span {
+    color: rgb(91, 170, 174);
+  }
+
+  header h1 {
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(255, 37, 35);
+    font-size: 60px;
+    font-family: 'Black Ops One';
+  }
+  section {
+    padding: 15px 15px 10px 15px;
+    margin-top: 20px;
+  }
+  
+  .searchbox {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Black Ops One';
+  
+    border: none;
+    outline: none;
+    background: none;
+  
+    background-color: rgb(91, 170, 174);
+    border-radius: 8px;
+  
+    color: rgb(255, 37, 35);
+    font-size: 20px;
+    font-weight: 300;
+  
+    transition: 0.4s ease-out;
+  }
+  
+  .searchbox:focus {
+    box-shadow: 0px 0px 8px 3px #4484C4;
+  }
+  
+  .results {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -15px;
+  }
+
+  main {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  
+  .results {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -15px;
+  }
+  
+  .results .result {
+    width: 33.333%;
+    min-width: 250px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .results .result img {
+    display: block;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .results .result h3 {
+    color: rgb(91, 170, 174);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    background: rgba(0,0,0,0.4);
+    flex: 1 1 100%;
+    transition: 0.4s ease-out;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 1px;
+  }
+
+  .results .result h3 span {
+    color: rgb(255, 37, 35);
+  }
+
+  .results .result:hover h3 span {
+    color: rgb(91, 170, 174);
+  }
+  
+  .results .result:hover h3 {
+    background: #FFF;
+    color: rgb(255, 37, 35);
+  }
+
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    padding: auto;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.9);
+    overflow-y: scroll;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .popup .content {
+    display: block;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 25px;
+  
+    color: #FFF;
+  }
+  
+  .popup .content h2 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .popup .content h2 span {
+    font-weight: 300;
+    font-size: 20px;
+  }
+  
+  /* movie's details  */
+  .popup .content .rating {
+    margin-top: 25px;
+  }
+  .popup .content .genre {
+    margin-top: 5px;
+  }
+
+  .popup .content .actors {
+    margin-top: 5px;
+  }
+  .popup .content .Director {
+    margin-top: 5px;
+  }
+  .popup .content .language {
+    margin-top: 5px;
+  }
+  .popup .content .Awards {
+    margin-top: 5px;
+  }
+  .popup .content .Runtime {
+    margin-top: 5px;
+  }
+  .popup .content .BoxOffice {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+
+  .i {
+    color: rgb(91, 170, 174);
+  }
+  .title {
+    color: rgb(255, 37, 35); 
+  }
+  .title span { 
+    color: #fff;
+  }
+
+    /* movie's details  */
+  
+  .popup .content .plot {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -15px 30px;
+  }
+  
+  .popup .content .plot img {
+    flex: 1 1 50%;
+    max-width: 300px;
+    padding: 0px 15px;
+  }
+  
+  .popup .content .plot p {
+    flex: 1 1 50%;
+    padding: 15px;
+  }
+  
+  .popup .content .close {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 700;
+  
+    background: #4484C4;
+    color: #FFF;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    appearance: none;
+    cursor: pointer;
+  
+    transition: 0.4s ease-out;
+  }
+  
+  .popup .content .close:hover {
+    background: #223343;
+  }
+
+  .made {
+    font-family: 'Black Ops One';
+    font-size: 12px;
+    color: rgb(91, 170, 174);
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .made span {
+    color: rgb(255, 37, 35);
+  }
+
+  .movieError {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgb(255, 37, 35);
+    font-family: 'Black Ops One';
+    text-decoration: underline;
+  }
